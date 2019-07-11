@@ -1,0 +1,94 @@
+{
+  "uid" : "feb09fb986f2c68f",
+  "name" : "Test.test02",
+  "fullName" : "test.Test.test02",
+  "historyId" : "97d99134721e4b4fbd77eff6a87747bf",
+  "time" : {
+    "start" : 1562665042848,
+    "stop" : 1562665043055,
+    "duration" : 207
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False",
+  "statusTrace" : "self = <test.Test object at 0x04508590>\n\n    @pytest.allure.severity(pytest.allure.severity_level.BLOCKER)\n    @allure.step(title=\"这是第二个测试\")\n    def test02(self):\n        print(\"我是许卓\")\n>       assert False\nE       assert False\n\ntest\\test.py:15: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert False",
+    "statusTrace" : "self = <test.Test object at 0x04508590>\n\n    @pytest.allure.severity(pytest.allure.severity_level.BLOCKER)\n    @allure.step(title=\"这是第二个测试\")\n    def test02(self):\n        print(\"我是许卓\")\n>       assert False\nE       assert False\n\ntest\\test.py:15: AssertionError",
+    "steps" : [ {
+      "name" : "这是第二个测试",
+      "time" : {
+        "start" : 1562665042850,
+        "stop" : 1562665042877,
+        "duration" : 27
+      },
+      "status" : "failed",
+      "statusMessage" : "self = <test.Test object at 0x04508590>\n\n    @pytest.allure.severity(pytest.allure.severity_level.BLOCKER)\n    @allure.step(title=\"这是第二个测试\")\n    def test02(self):\n        print(\"我是许卓\")\n>       assert False\nE       assert False\n\ntest\\test.py:15: AssertionError",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-O9E1V5K"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "thread",
+    "value" : "9808-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test"
+  }, {
+    "name" : "testClass",
+    "value" : "test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test.test02"
+  }, {
+    "name" : "package",
+    "value" : "test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "feb09fb986f2c68f.json",
+  "parameterValues" : [ ]
+}

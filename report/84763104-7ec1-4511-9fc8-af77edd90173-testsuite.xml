@@ -1,0 +1,71 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1562665042839" stop="1562665043059">
+  <name>test</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1562665042839" status="passed" stop="1562665042846">
+      <name>Test.test01</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="9808-MainThread"/>
+        <label name="host" value="DESKTOP-O9E1V5K"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1562665042845" status="passed" stop="1562665042845">
+          <name>这是第一个测试</name>
+          <title>这是第一个测试</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1562665042848" status="failed" stop="1562665043055">
+      <name>Test.test02</name>
+      <failure>
+        <message>AssertionError: assert False</message>
+        <stack-trace>self = &lt;test.Test object at 0x04508590&gt;
+
+    @pytest.allure.severity(pytest.allure.severity_level.BLOCKER)
+    @allure.step(title="这是第二个测试")
+    def test02(self):
+        print("我是许卓")
+&gt;       assert False
+E       assert False
+
+test\test.py:15: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="blocker"/>
+        <label name="thread" value="9808-MainThread"/>
+        <label name="host" value="DESKTOP-O9E1V5K"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1562665042850" status="failed" stop="1562665042877">
+          <name>这是第二个测试</name>
+          <title>这是第二个测试</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1562665043056" status="passed" stop="1562665043059">
+      <name>Test.test03</name>
+      <attachments>
+        <attachment source="4d4d9dc8-5e2e-4acb-bee9-ead0dda96aa5-attachment.png" title="失败原因" type="image/png"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="9808-MainThread"/>
+        <label name="host" value="DESKTOP-O9E1V5K"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
