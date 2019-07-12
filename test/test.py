@@ -8,11 +8,11 @@ class Test(object):
         print("我是许朝卓")
 
         # 错误级别    BLOCKER：有防碍的
-    @pytest.allure.severity(pytest.allure.severity_level.BLOCKER)
-    @allure.step(title="这是第二个测试")
-    def test02(self):
-        print("我是许卓")
-        assert False
+    #@pytest.allure.severity(pytest.allure.severity_level.BLOCKER)
+    #@allure.step(title="这是第二个测试")
+   # def test02(self):
+      #  print("我是许卓1")
+#        assert False
 
 
     def test03(self):
